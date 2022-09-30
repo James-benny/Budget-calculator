@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Form</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./files.css">
+</head>
+
+<body>
+    <section class="container-fluid sec1">
+        <form action="" id="budget-form">
+        <div class="d-flex justify-content-center">
+            <div class="first-section ps-4 pe-4 pt-4" style="width:500px;">
+                <h2 class="text-end text-danger fs-3">Budget
+                    <p id="budget-amount" class="fs-1">&#8358;20000</p>
+                </h2>
+                <span class="Budget text-light">My Budget for: <br> 
+                    <input type="number" id="total-budget"
+                        style="width:70%; border: dotted; border-width:2px; border-color: rgb(168, 39, 84);">
+                    <!-- <input class="ms-3" type="number" style="width:80px; border: dotted; border-width:2px; border-color: rgb(168, 39, 84);"> -->
+                    <button class="bg bg-danger text-light border rounded budget" type="submit">Add</button>
+                    <!-- <input type="checkbox"> -->
+                </span> <br> <br>
+                <div class="div"></div> <br>
+            </div>
+        </form>
+        </div>
+
+        <form action="" id="expense-form">
+        <div class="d-flex justify-content-center">
+            <div class="first-sectio ps-4 pe-4 pt-4" style="width:500px;">
+                <div>
+                    <span class="text-light">Expenditure Amount: 
+                        <input id="expense-amount" type="number" placeholder="&#8358;" 
+                            style="width:20%; border: double; border-width:5px; border-color: rgb(168, 39, 84);"></span>
+                    <br>
+                    <!-- <input class="mt-2" type="text" placeholder="Amount in words" style="width: 100%; border: double; border-width: 5px; border-color: rgb(168, 39, 84);"> -->
+                </div>
+                <div class="mt-3">
+                    <textarea id="desc-input" class="mb-2 mt-2" placeholder="Description" cols="57" rows="3"
+                        style="width:100%; border: double; border-width:5px; border-color: rgb(168, 39, 84);"></textarea>
+                    <button class="bg bg-danger text-center mb-5 text-light" type="submit">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+        <div class="d-flex justify-content-center">
+            <div class="first-section3 pt-4" style="width:500px;">
+        <div class="d-flex justify-content-center" id="list">
+            <div class="w-100">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  A list item
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  A second list item
+                  <span class="badge bg-primary rounded-pill">2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  A third list item
+                  <span class="badge bg-primary rounded-pill">1</span>
+                </li>
+              </ul>
+            </div>
+                
+            </div>
+        </div>
+
+        </div>
+
+        <!-- <div class="row d-flex justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <div id="desc-form1" class="text-light pb-4 border">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae a laborum fuga odit qui! Nam fugit accusantium possimus corrupti.
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12">
+                    <div class=" mt-4 text-end border">
+                        <p id="desc-price" class="badge bg-danger fs-5 amount">&#8358;1000</p>
+                    </div>
+                </div>
+
+                <div class="div"></div> <br>  
+                            
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <div id="desc-form1" class="text-light pb-4 border">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae a laborum fuga odit qui! Nam fugit accusantium possimus corrupti.
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12">
+                    <div class=" mt-4 text-end border">
+                        <p id="desc-price" class="badge bg-danger fs-5 amount">&#8358;1000</p>
+                    </div>
+                </div>
+
+                <div class="div"></div> <br>     -->
+
+        <!-- <div class="container">
+            <div class="d-flex justify-content-center mt-5">
+                <div class="w-50 border border-light rounded1">
+                    <ul class="list-group list-section">
+                        <li
+                            class="list-group-item d-flex justify-content-between align-items-center list-section text-danger">
+                            Bread for Breakfast hfhhfjdjjdjsjs
+                            <span class="badge bg-danger fs-5">&#8358;700</span>
+                        </li>
+                        <li
+                            class="list-group-item d-flex justify-content-between align-items-center list-section text-danger">
+                            Transport to Kodehauz
+                            <span class="badge bg-danger fs-5">&#8358;100</span>
+                        </li>
+                        <li
+                            class="list-group-item d-flex justify-content-between align-items-center list-section text-danger">
+                            Snacks for lunch
+                            <span class="badge bg-danger fs-5">&#8358;300</span>
+                        </li>
+                        <li
+                            class="list-group-item d-flex justify-content-between align-items-center list-section text-danger">
+                            Transport back home
+                            <span class="badge bg-danger fs-5">&#8358;100</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> --> 
+        <!-- <div class="container d-flex justify-content-center mt-5">
+            <div class="row text-light border gx-5">
+                <div class="col-lg-6 col-md-8 col-sm-12 pt-3 border">
+                    <div class="">
+                        <h4 class="ps-3 border">Description</h4>
+                            <p class="list1">Bread for Breakfast</p>
+                            <p class="list1">Transport to Kodehauz</p>
+                            <p class="list1">Snacks for lunch</p>
+                            <p class="list1">Transport back home</p>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12 pt-3 border">
+                    <div>
+                        <ul class="list">
+                            <h4 class="border">Amount</h4>
+                            <p>&#8358;700</p>
+                            <p>&#8358;100</p>
+                            <p>&#8358;200</p>
+                            <p>&#8358;100</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
+    </section>
+
+
+   <script src="./js/app.js"></script>
+</body>
+
+</html>

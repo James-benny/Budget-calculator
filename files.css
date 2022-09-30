@@ -1,0 +1,71 @@
+.sec1{
+    background-image:linear-gradient(rgba(15, 4, 42, 0.829), rgba(13, 3, 40, 0.84)), url(./images/computer\ school.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    /* padding-top: 30px;
+    padding-bottom: 40px; */
+  
+}
+
+.first-section{
+    margin-top: 80px;
+    background-color: rgb(13, 5, 28);
+    border-radius: 20px;
+    border: solid white;
+    min-width: 50% !important;
+}
+.first-sectio{
+    margin-top: 45px;
+    background-color: rgb(13, 5, 28);
+    border-radius: 20px;
+    border: solid white;
+    min-width: 50% !important;
+}
+.first-section3{
+    margin-top: 45px;
+    background-color: rgb(13, 5, 28);
+    border-radius: 20px;
+    border: solid white;
+    min-width: 50% !important;
+}
+
+.Budget{
+    font-weight: 600;
+}
+
+.div{
+    background-color: white;
+    height: 1px;
+}
+
+.budget{
+    border-radius: 20% !important; 
+}
+
+.list{
+    list-style-type: none !important;
+}
+
+.list1{
+    padding-right: 100px !important;
+}
+
+.list-section{
+    background-color: rgb(13, 5, 28) !important;
+    border-radius: 20px !important;
+    font-weight: 750;
+
+}
+
+.rounded1{
+    border-radius: 20px;
+    border-width: 2px !important;
+}
+
+/* @media screen and (max-width: 995px){
+    .amount{
+        
+       
+    }
+} */
